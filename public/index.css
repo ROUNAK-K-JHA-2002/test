@@ -1,0 +1,71 @@
+body {
+    transition: all 0.2s;
+}
+
+.NavigationBarFirst div {
+    display: inline-block;
+}
+
+.logo img {
+    width: 60%;
+}
+
+.menuOptions i {
+    font-size: 1.7em;
+    color: blue;
+    cursor: pointer;
+}
+
+input[type=text] {
+    background-color: white;
+    background-image: url('../assets/images/search-icon.png');
+    background-repeat: no-repeat;
+    background-size: 25px;
+    background-position-x: right;
+    background-position-y: center;
+}
+
+.NavigationBarSecond {
+    background-color: rgb(111, 0, 255);
+}
+
+.NavigationBarSecond div a {
+    display: inline-block;
+    text-decoration: none;
+    font-size: 1.1em;
+    color: rgb(251, 230, 230);
+    transition: all 0.5s;
+}
+
+.NavigationBarSecond div {
+    display: inline-block;
+}
+
+.NavigationBarSecond div a:hover {
+    color: chocolate;
+}
+
+#side_nav {
+    height: 100vh;
+    width: 0;
+    background-color: rgba(0, 0, 0, 0.836);
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 3;
+    overflow-x: hidden;
+    transition: 0.5s;
+    transition: all 0.5s;
+}
+
+#side_nav div a {
+    text-decoration: none;
+    color: rgb(255, 189, 65);
+    transition: all 0.2s;
+    display: block;
+}
+
+#side_nav a:hover {
+    color: rgb(255, 251, 0);
+    background-color: rgb(126, 128, 127);
+}
